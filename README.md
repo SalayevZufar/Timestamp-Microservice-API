@@ -1,2 +1,2 @@
-# Timestamp-Microservice-API
-Timestamp Microservice API
+# Timestamp-Microservice
+Timestamp Microservice 
