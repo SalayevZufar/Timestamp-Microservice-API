@@ -9,11 +9,7 @@ app = Flask(__name__)
 def date_time(date):
     
     if date.isnumeric() == True:
-
         to_uts = datetime.fromtimestamp(int(date))
-        
-        
-        
         weekday = to_uts.strftime("%a")
         day = to_uts.strftime("%d")
         month = to_uts.strftime("%b")
