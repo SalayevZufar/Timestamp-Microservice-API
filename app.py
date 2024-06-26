@@ -1,5 +1,4 @@
 from flask import Flask, jsonify
-from email.utils import formatdate
 from datetime import datetime
 import time
 app = Flask(__name__)
